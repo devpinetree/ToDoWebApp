@@ -1,11 +1,11 @@
-import React, { useState, useRef, useCallback, useReducer } from 'react';
+import React, { useRef, useCallback, useReducer } from 'react';
 import TodoTemplate from './components/TodoTemplate';
 import TodoInsert from './components/TodoInsert';
 import TodoList from './components/TodoList';
 
 function createBulkTodos() {
   const array = [];
-  for (let i = 1; i <= 2500; i++) {
+  for (let i = 1; i <= 5; i++) {
     array.push({
       id: i,
       text: `TODO ${i}`,
